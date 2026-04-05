@@ -42,9 +42,9 @@ Ask: "Want me to embed this for search? (yes/skip)"
 
 If yes:
 ```bash
-python3 "/Users/virgilbrewster/My Drive/Virgil Brain/Skills/ghostwriter/scripts/embed_and_store.py" \
+python3 "$GHOSTWRITER_DIR/scripts/embed_and_store.py" \
   --table swipe_embeddings \
-  --source "/Users/virgilbrewster/My Drive/Virgil Brain/Skills/ghostwriter/swipe/[filename]" \
+  --source "$GHOSTWRITER_DIR/swipe/[filename]" \
   --metadata '{"author":"[name]","tags":["tag1","tag2"]}' \
   --quiet
 ```
@@ -59,12 +59,12 @@ When Virgil says "show me swipe posts" or "what inspiration do I have":
 
 1. List files in swipe/:
 ```bash
-ls -t "/Users/virgilbrewster/My Drive/Virgil Brain/Skills/ghostwriter/swipe/" | head -10
+ls -t "$GHOSTWRITER_DIR/swipe/" | head -10
 ```
 
 2. If Virgil wants to search by topic:
 ```bash
-python3 "/Users/virgilbrewster/My Drive/Virgil Brain/Skills/ghostwriter/scripts/query_vectors.py" \
+python3 "$GHOSTWRITER_DIR/scripts/query_vectors.py" \
   --table swipe_embeddings \
   --query "[topic]" \
   --limit 5 \

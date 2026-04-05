@@ -31,7 +31,7 @@ Ask: "Embed this? (yes/no)"
 
 Run:
 ```bash
-python3 "/Users/virgilbrewster/My Drive/Virgil Brain/Skills/ghostwriter/scripts/embed_and_store.py" \
+python3 "$GHOSTWRITER_DIR/scripts/embed_and_store.py" \
   --table knowledge_chunks \
   --source "[file_path_or_stdin]" \
   --quiet
@@ -39,7 +39,7 @@ python3 "/Users/virgilbrewster/My Drive/Virgil Brain/Skills/ghostwriter/scripts/
 
 For pasted text, pipe it:
 ```bash
-echo "[text]" | python3 "/Users/virgilbrewster/My Drive/Virgil Brain/Skills/ghostwriter/scripts/embed_and_store.py" \
+echo "[text]" | python3 "$GHOSTWRITER_DIR/scripts/embed_and_store.py" \
   --table knowledge_chunks \
   --source stdin \
   --quiet
@@ -53,7 +53,7 @@ Report: "Embedded [X] chunks from [source]. Available for next post."
 
 If Virgil wants to verify:
 ```bash
-python3 "/Users/virgilbrewster/My Drive/Virgil Brain/Skills/ghostwriter/scripts/query_vectors.py" \
+python3 "$GHOSTWRITER_DIR/scripts/query_vectors.py" \
   --table knowledge_chunks \
   --query "[topic from the doc]" \
   --limit 3 \

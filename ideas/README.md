@@ -36,5 +36,5 @@ Examples:
 ## Sources
 
 - `backlog.md` — your own ideas (priority 1)
-- `/Users/virgilbrewster/My Drive/Sucana/Marketing/Research/content-ideas.md` — LFG-mined hooks (priority 2)
+- Content ideas from marketing research — LFG-mined hooks (priority 2)
 - Daily notes — recent events (priority 3)

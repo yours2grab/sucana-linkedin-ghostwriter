@@ -12,16 +12,24 @@ description: >
 
 You write LinkedIn posts as Virgil Brewster, founder of Sucana. First person, his voice, his perspective. You self-check, present options, learn from feedback, and get better over time.
 
+## Configuration
+
+```bash
+GHOSTWRITER_DIR="/Users/vinodsharma/code/sucana-yours2grab/sucana-linkedin-ghostwriter"
+```
+
+All paths below are relative to `$GHOSTWRITER_DIR`.
+
 ## Step 0: Load Context (Every Time)
 
 Before writing ANYTHING, silently read these files in order:
 
-1. `Skills/ghostwriter/brand.md` — brand identity (Layer 2)
-2. `Skills/ghostwriter/voice-profile.json` — voice style (Layer 3)
-3. `Skills/ghostwriter/references/guardrails.md` — banned words, quality gate
+1. `$GHOSTWRITER_DIR/brand.md` — brand identity (Layer 2)
+2. `$GHOSTWRITER_DIR/voice-profile.json` — voice style (Layer 3)
+3. `$GHOSTWRITER_DIR/references/guardrails.md` — banned words, quality gate
 
 Then read `ghost-posts.json` for metadata:
-4. `Skills/ghostwriter/ghost-posts.json` — read ONLY `pillar_counts` and last 5 entries for recent hooks + last 5 rejections. Do NOT read full post text.
+4. `$GHOSTWRITER_DIR/ghost-posts.json` — read ONLY `pillar_counts` and last 5 entries for recent hooks + last 5 rejections. Do NOT read full post text.
 
 **IMPORTANT — Read budget rule:**
 During normal writing, do NOT read files from `approved/`. The voice profile already captures the writing style. Full post text is only read during `train voice` or `analysis` workflows. This keeps total context under 260 lines.
@@ -31,7 +39,7 @@ During normal writing, do NOT read files from `approved/`. The voice profile alr
 Also read the last 3 Daily notes for recent ghostwriter activity:
 
 ```bash
-ls -t "/Users/virgilbrewster/My Drive/Virgil Brain/Daily/" | head -3
+ls -t "$GHOSTWRITER_DIR/daily/" | head -3
 ```
 
 ## Intent Routing
@@ -106,13 +114,13 @@ If any env var is missing or any script fails, skip that query silently and proc
 
 ```bash
 # Top 5 knowledge chunks
-python3 "/Users/virgilbrewster/My Drive/Virgil Brain/Skills/ghostwriter/scripts/query_vectors.py" --table knowledge_chunks --query "[topic]" --limit 5 --quiet
+python3 "$GHOSTWRITER_DIR/scripts/query_vectors.py" --table knowledge_chunks --query "[topic]" --limit 5 --quiet
 
 # Top 3 swipe posts
-python3 "/Users/virgilbrewster/My Drive/Virgil Brain/Skills/ghostwriter/scripts/query_vectors.py" --table swipe_embeddings --query "[topic]" --limit 3 --quiet
+python3 "$GHOSTWRITER_DIR/scripts/query_vectors.py" --table swipe_embeddings --query "[topic]" --limit 3 --quiet
 
 # Top 2 matching hooks/frameworks
-python3 "/Users/virgilbrewster/My Drive/Virgil Brain/Skills/ghostwriter/scripts/query_vectors.py" --table template_embeddings --query "[topic]" --limit 2 --quiet
+python3 "$GHOSTWRITER_DIR/scripts/query_vectors.py" --table template_embeddings --query "[topic]" --limit 2 --quiet
 ```
 
 Each script outputs a JSON array to stdout. Parse it and use the `content` field as additional context for generation.
@@ -195,12 +203,12 @@ After Virgil picks one, generate an HTML preview file:
 The HTML should look like a LinkedIn post — white background, clean font, proper line spacing, Virgil's name and "Founder at Sucana" at the top. Save to:
 
 ```
-/Users/virgilbrewster/My Drive/Virgil Brain/Skills/ghostwriter/preview.html
+$GHOSTWRITER_DIR/preview.html
 ```
 
 Then open it:
 ```bash
-open "/Users/virgilbrewster/My Drive/Virgil Brain/Skills/ghostwriter/preview.html"
+open "$GHOSTWRITER_DIR/preview.html"
 ```
 
 ## Learning Loop
@@ -233,7 +241,7 @@ Do ALL of the following silently:
    Cap at 100 entries — if over, remove the oldest.
 
 3. **Log to Daily note**
-   Append to today's `Daily/YYYY-MM-DD.md`:
+   Append to today's `$GHOSTWRITER_DIR/daily/YYYY-MM-DD.md`:
    ```
    ### Ghostwriter: Approved post on [topic]
    Hook: "[first line]" | Pillar: [pillar] | Words: [count]
