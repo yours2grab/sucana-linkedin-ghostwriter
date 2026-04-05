@@ -40,6 +40,10 @@ LinkedIn content skill rebuilt as a single Claude Code skill with sub-workflows.
 | Read budget rule | Wired in SKILL.md | Never read approved/ during write flow, ~260 lines total context |
 | ghost-posts.json rotation | Wired in SKILL.md | Posts cap 100, rejections cap 20, trim oldest |
 | linkedin-writer decommission | Done | Removed from Skills/CLAUDE.md active list |
+| Legacy cleanup | Done | Deleted linkedin-writer/, writer.skill, linkedin-writer-weekly scheduled task |
+| Registry updated | Done | Skills/registry.md, _guide.md, Projects/linkedin/README.md, skill-architecture-guide.md all point to ghostwriter |
+| GitHub repo | Done | yours2grab/sucana-linkedin-ghostwriter (public, with README) |
+| Old GitHub repo | Done | yours2grab/sucana-linkedin-writer deleted |
 
 ## Phase Progress
 
@@ -70,6 +74,12 @@ LinkedIn content skill rebuilt as a single Claude Code skill with sub-workflows.
 | 2026-04-05 | Ghostwriter replaces linkedin-writer | One domain = one skill. Decommission old in Phase 4 |
 | 2026-04-05 | SKILL.md target 500-800 lines | 500 unrealistic for this scope |
 | 2026-04-05 | Approved posts: YYYY-MM-DD-slug.md | Date-prefix for sorting, retrieve last 5 via ls -t |
+
+## Deployment
+
+- **Local:** `Skills/ghostwriter/` (canonical)
+- **Packaged:** `Skills/ghostwriter.skill` (ZIP)
+- **GitHub:** `yours2grab/sucana-linkedin-ghostwriter`
 
 ## Blockers
 
