@@ -1,0 +1,204 @@
+{
+  "hooks": [
+    {
+      "id": 1,
+      "name": "The Bold Claim",
+      "structure": "[Subject] just [dramatic verb] [object].",
+      "examples": ["The platform just made a job disappear.", "AI just killed the production studio."],
+      "category": "bold_statement",
+      "best_for": ["agency_insider", "ai_founder_life"]
+    },
+    {
+      "id": 2,
+      "name": "The Personal Failure",
+      "structure": "I [past tense verb] my [thing].",
+      "examples": ["I fired my Excel sheet.", "I made my developer cry."],
+      "category": "bold_statement",
+      "best_for": ["building_in_public"]
+    },
+    {
+      "id": 3,
+      "name": "The Dialogue Drop",
+      "structure": "[Person] [said/called]. \"[short quote].\"",
+      "examples": ["Vinod called. \"I'm tired.\"", "Victor my co-founder called me last Tuesday. \"I just spent four hours pulling data.\""],
+      "category": "dialogue",
+      "best_for": ["building_in_public"]
+    },
+    {
+      "id": 4,
+      "name": "The Contrarian Question",
+      "structure": "[Provocative question that challenges assumption]?",
+      "examples": ["Haven't you built an AI agent yet?", "When was your last tool audit?"],
+      "category": "question",
+      "best_for": ["ai_founder_life", "agency_insider"]
+    },
+    {
+      "id": 5,
+      "name": "The Action Declaration",
+      "structure": "We [past tense verb] all the [things].",
+      "examples": ["We removed all the dropdown filters.", "We killed the feature nobody used."],
+      "category": "bold_statement",
+      "best_for": ["building_in_public"]
+    },
+    {
+      "id": 6,
+      "name": "The Crisis Opener",
+      "structure": "Yesterday, [something bad happened].",
+      "examples": ["Yesterday, our tool died.", "Yesterday, Victor lost a client's data."],
+      "category": "scene",
+      "best_for": ["building_in_public"]
+    },
+    {
+      "id": 7,
+      "name": "The Why Statement",
+      "structure": "Why I [love/hate/stopped] [thing] for [purpose].",
+      "examples": ["Why I love Reddit for validation.", "Why I stopped chasing features."],
+      "category": "question",
+      "best_for": ["building_in_public", "ai_founder_life"]
+    },
+    {
+      "id": 8,
+      "name": "The How Declaration",
+      "structure": "How I [did thing] to [outcome].",
+      "examples": ["How I built with my buddies to win."],
+      "category": "bold_statement",
+      "best_for": ["building_in_public"]
+    },
+    {
+      "id": 9,
+      "name": "The Number Hook",
+      "structure": "I [asked/talked to/surveyed] [number] [people]. [Surprising result].",
+      "examples": ["I asked 12 agency owners about their tool stack. 11 of them sighed."],
+      "category": "statistic",
+      "best_for": ["agency_insider"]
+    },
+    {
+      "id": 10,
+      "name": "The Scene Setter",
+      "structure": "Just [came back from/sitting in] [place] and [observation].",
+      "examples": ["Just came back from walking my dog Bumi on the beach."],
+      "category": "scene",
+      "best_for": ["ai_founder_life", "building_in_public"]
+    },
+    {
+      "id": 11,
+      "name": "The Confession",
+      "structure": "I [thought/believed/was sure] [wrong thing]. I was wrong.",
+      "examples": ["I thought more features meant better product. I was wrong."],
+      "category": "bold_statement",
+      "best_for": ["building_in_public"]
+    },
+    {
+      "id": 12,
+      "name": "The Industry Truth",
+      "structure": "[Industry group] don't [what everyone thinks]. They [what they actually do].",
+      "examples": ["Agency owners don't need more features. They need fewer tabs open."],
+      "category": "bold_statement",
+      "best_for": ["agency_insider"]
+    },
+    {
+      "id": 13,
+      "name": "The Time Reveal",
+      "structure": "[Person] spent [shocking amount of time] on [mundane task].",
+      "examples": ["Four hours. For one client report."],
+      "category": "statistic",
+      "best_for": ["agency_insider"]
+    },
+    {
+      "id": 14,
+      "name": "The One Word Disruptor",
+      "structure": "[Setup sentence]. [Single word or two-word punch].",
+      "examples": ["More options, more control. Right? Wrong."],
+      "category": "bold_statement",
+      "best_for": ["building_in_public", "agency_insider"]
+    },
+    {
+      "id": 15,
+      "name": "The Permission Slip",
+      "structure": "You don't need [what everyone says you need].",
+      "examples": ["You don't need another tool. You need fewer tools that do more."],
+      "category": "bold_statement",
+      "best_for": ["agency_insider", "ai_founder_life"]
+    },
+    {
+      "id": 16,
+      "name": "The Tool Breakup",
+      "structure": "I [cancelled/deleted/stopped using] [tool/process] [timeframe ago].",
+      "examples": ["I cancelled three tools last month. Nobody noticed."],
+      "category": "bold_statement",
+      "best_for": ["ai_founder_life", "building_in_public"]
+    },
+    {
+      "id": 17,
+      "name": "The Cost of Inaction",
+      "structure": "Every [time period], [audience] lose [thing] because [reason].",
+      "examples": ["Every Monday, media buyers lose 4 hours to manual reporting."],
+      "category": "statistic",
+      "best_for": ["agency_insider"]
+    },
+    {
+      "id": 18,
+      "name": "The Realization Moment",
+      "structure": "The day I [discovered/realized/saw] [thing], everything changed.",
+      "examples": ["The day I talked to Claude Co-Work, I was almost crying."],
+      "category": "scene",
+      "best_for": ["ai_founder_life"]
+    },
+    {
+      "id": 19,
+      "name": "The Insider Quote",
+      "structure": "\"[Quote from real conversation].\" — [context]",
+      "examples": ["\"This tool is killing my Monday mornings.\" Found that on Reddit at 2 AM."],
+      "category": "dialogue",
+      "best_for": ["agency_insider"]
+    },
+    {
+      "id": 20,
+      "name": "The Age Card",
+      "structure": "I'm [age], and I [unexpected thing for that age].",
+      "examples": ["Brother, I'm 50, and I can't even spell an email right without Grammarly."],
+      "category": "scene",
+      "best_for": ["ai_founder_life"]
+    },
+    {
+      "id": 21,
+      "name": "The Before/After",
+      "structure": "[Time ago]: [old way]. Now: [new way].",
+      "examples": ["Six months ago: Excel sheets, 4 dashboards, manual reports. Now: one question to the AI."],
+      "category": "bold_statement",
+      "best_for": ["building_in_public", "ai_founder_life"]
+    },
+    {
+      "id": 22,
+      "name": "The Myth Buster",
+      "structure": "[Common belief] is a lie.",
+      "examples": ["More data means better decisions is a lie."],
+      "category": "bold_statement",
+      "best_for": ["agency_insider"]
+    },
+    {
+      "id": 23,
+      "name": "The Unpopular Take",
+      "structure": "Unpopular take: [opinion nobody wants to hear].",
+      "examples": ["Unpopular take: most agency dashboards create more work than they solve."],
+      "category": "bold_statement",
+      "best_for": ["agency_insider"]
+    },
+    {
+      "id": 24,
+      "name": "The Discovery",
+      "structure": "[Tool/thing] dropped and I lost my mind.",
+      "examples": ["Seedance 2.0 dropped and I lost my mind."],
+      "category": "scene",
+      "best_for": ["ai_founder_life"]
+    },
+    {
+      "id": 25,
+      "name": "The Simple Truth",
+      "structure": "[Complex topic] in [small number] words: [compression].",
+      "examples": ["Agency reporting in 5 words: too many tabs open."],
+      "category": "bold_statement",
+      "best_for": ["agency_insider", "building_in_public"]
+    }
+  ]
+}

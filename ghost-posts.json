@@ -1,0 +1,100 @@
+{
+  "posts": [
+    {
+      "date": "2026-03-08",
+      "slug": "platform-made-job-disappear",
+      "pillar": "agency_insider",
+      "hook": "The platform just made a job disappear.",
+      "hook_style": "bold_statement",
+      "word_count": 152,
+      "was_edited": false
+    },
+    {
+      "date": "2026-02-27",
+      "slug": "yesterday-our-tool-died",
+      "pillar": "building_in_public",
+      "hook": "Yesterday, our tool died.",
+      "hook_style": "bold_statement",
+      "word_count": 155,
+      "was_edited": false
+    },
+    {
+      "date": "2026-02-18",
+      "slug": "ai-killed-production-studio",
+      "pillar": "ai_founder_life",
+      "hook": "AI just killed the production studio.",
+      "hook_style": "bold_statement",
+      "word_count": 142,
+      "was_edited": false
+    },
+    {
+      "date": "2026-02-10",
+      "slug": "reddit-validation",
+      "pillar": "building_in_public",
+      "hook": "Why I love Reddit for validation",
+      "hook_style": "question",
+      "word_count": 157,
+      "was_edited": false
+    },
+    {
+      "date": "2026-02-10",
+      "slug": "havent-you-built-ai-agent",
+      "pillar": "ai_founder_life",
+      "hook": "Haven't you built an AI agent yet?",
+      "hook_style": "question",
+      "word_count": 130,
+      "was_edited": false
+    },
+    {
+      "date": "2026-02-10",
+      "slug": "made-developer-cry",
+      "pillar": "building_in_public",
+      "hook": "I made my developer cry.",
+      "hook_style": "bold_statement",
+      "word_count": 154,
+      "was_edited": false
+    },
+    {
+      "date": "2026-02-10",
+      "slug": "built-with-buddies-to-win",
+      "pillar": "building_in_public",
+      "hook": "How I built with my buddies to win.",
+      "hook_style": "scene",
+      "word_count": 126,
+      "was_edited": false
+    },
+    {
+      "date": "2026-02-10",
+      "slug": "fired-my-excel-sheet",
+      "pillar": "ai_founder_life",
+      "hook": "I fired my Excel sheet.",
+      "hook_style": "bold_statement",
+      "word_count": 163,
+      "was_edited": false
+    },
+    {
+      "date": "2026-02-09",
+      "slug": "removed-dropdown-filters",
+      "pillar": "building_in_public",
+      "hook": "We removed all the dropdown filters.",
+      "hook_style": "bold_statement",
+      "word_count": 118,
+      "was_edited": false
+    },
+    {
+      "date": "2026-02-09",
+      "slug": "vinod-called-im-tired",
+      "pillar": "building_in_public",
+      "hook": "Vinod called. \"I'm tired.\"",
+      "hook_style": "dialogue",
+      "word_count": 118,
+      "was_edited": false
+    }
+  ],
+  "pillar_counts": {
+    "building_in_public": 6,
+    "agency_insider": 1,
+    "ai_founder_life": 3
+  },
+  "rejections": []
+}

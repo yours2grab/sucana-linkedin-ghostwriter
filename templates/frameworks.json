@@ -1,0 +1,88 @@
+{
+  "frameworks": [
+    {
+      "id": 1,
+      "name": "PAS — Problem, Agitation, Solution",
+      "structure": "Hook → Problem (what's broken) → Agitation (why it hurts) → Solution (what Virgil did) → CTA question",
+      "when": "Default framework. Works for most posts.",
+      "example_post": "I fired my Excel sheet."
+    },
+    {
+      "id": 2,
+      "name": "Crisis Story",
+      "structure": "Hook (something broke) → The panic → The realization → The fix → The lesson → CTA",
+      "when": "When something went wrong and you learned from it.",
+      "example_post": "Yesterday, our tool died."
+    },
+    {
+      "id": 3,
+      "name": "Scene Opener",
+      "structure": "Set the scene (visual, sensory) → What happened → What it means → Takeaway → CTA",
+      "when": "When you have a specific moment worth painting.",
+      "example_post": "AI just killed the production studio."
+    },
+    {
+      "id": 4,
+      "name": "Dialogue Drop",
+      "structure": "Quote from real person → Context → Problem they revealed → Insight → CTA",
+      "when": "When someone said something that captures a bigger truth.",
+      "example_post": "Vinod called. \"I'm tired.\""
+    },
+    {
+      "id": 5,
+      "name": "Kill Features Logic",
+      "structure": "What we added → Why it seemed right → Who tested it → What broke → What we killed → The rule → CTA",
+      "when": "When you removed something and it made the product better.",
+      "example_post": "We removed all the dropdown filters."
+    },
+    {
+      "id": 6,
+      "name": "Two-Part Validation",
+      "structure": "Hook → Two methods side by side → What you learn from each → Where the gold is → CTA",
+      "when": "When comparing approaches or sharing a research method.",
+      "example_post": "Why I love Reddit for validation."
+    },
+    {
+      "id": 7,
+      "name": "Monk Mode Formula",
+      "structure": "Hook → The team dynamics → What each person does → The framework → The list → Counter-argument → CTA",
+      "when": "When sharing how you work with your team.",
+      "example_post": "How I built with my buddies to win."
+    },
+    {
+      "id": 8,
+      "name": "Transformation Story",
+      "structure": "Hook (old way) → Pain of old way → Discovery moment → New way → Steps → Life now → CTA",
+      "when": "When you switched from old method to new and life improved.",
+      "example_post": "I fired my Excel sheet."
+    },
+    {
+      "id": 9,
+      "name": "Industry Observation",
+      "structure": "Bold claim about industry → Evidence (what you've seen) → Why nobody talks about it → What it means → CTA",
+      "when": "When you've noticed a pattern that agency owners experience but don't discuss.",
+      "example_post": "The platform just made a job disappear."
+    },
+    {
+      "id": 10,
+      "name": "The Compression Beat",
+      "structure": "Complex topic → Crush to one sentence → Expand with one example → Lesson → CTA",
+      "when": "When you can boil something down to its essence. Virgil's favorite move.",
+      "example_post": "Simple doesn't mean easy."
+    },
+    {
+      "id": 11,
+      "name": "Action Plan",
+      "structure": "Hook (relatable problem) → Short rant → Steps (numbered, conversational) → Punchline → CTA",
+      "when": "When giving practical steps. Keep steps conversational, not instructional.",
+      "example_post": "Haven't you built an AI agent yet?"
+    },
+    {
+      "id": 12,
+      "name": "Contrarian View",
+      "structure": "Common belief → Why everyone follows it → Why it's wrong → What Virgil does instead → Result → CTA",
+      "when": "When you disagree with conventional wisdom and have evidence.",
+      "example_post": "More options, more control. Right? Wrong."
+    }
+  ]
+}
