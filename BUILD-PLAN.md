@@ -156,7 +156,7 @@ SKILL.md must include an explicit routing table so Claude knows which reference 
 - API keys: hardcoded in script (matches imagegen pattern), or read from SKILL.md-provided args
 - Called from SKILL.md via Bash:
   ```
-  python3 "/Users/virgilbrewster/My Drive/Virgil Brain/Skills/ghostwriter/scripts/query_vectors.py" --table knowledge_chunks --query "topic here" --limit 5
+  python3 "$GHOSTWRITER_DIR/scripts/query_vectors.py" --table knowledge_chunks --query "topic here" --limit 5
   ```
 - SKILL.md instruction: "If script returns empty or non-zero exit, proceed without Layer 4 dynamic context"
 
